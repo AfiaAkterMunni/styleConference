@@ -1,0 +1,139 @@
+/*================================================
+			Home PAGE
+================================================*/
+/* Small */
+ @media only screen and (min-width: 769px)and (max-width: 992px) {
+ 	.main{
+ 		width: 80%;
+ 	}
+ 	.left p{
+		font-size: 35px;
+		line-height: 30px;
+	}
+	nav ul li a{
+		margin-left: 8px;
+    	font-size: 12px;
+	}
+	.right p{
+		font-size: 18px;
+	}
+ 	.main1{
+ 		width: 75%;
+ 	}
+ 	.main1 .p1{
+ 		font-size: 24px;
+ 	}
+ 	.main1 .p2{
+ 		font-size: 18px;
+ 		line-height: 27px;
+ 	}
+ 	.main1 button {
+    font-size: 11px;
+    padding: 15px 18px;
+	}
+	.marLeftRight {
+		/*margin: 55px auto;*/
+		width: 80%;
+		overflow: hidden;
+	}
+	.cmn{
+		/*float: left;*/
+		width: 30%;
+	}
+	.footerForWidth{
+		width: 80%;
+	}
+ } 
+
+/* Small to medium */
+ @media only screen and (min-width: 577px)and (max-width: 768px) {
+ 	.main{
+ 		width: 95%;
+ 	}
+ 	.left p{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	nav ul li a{
+		margin-left: 7px;
+    	font-size: 10px;
+	}
+	.right p{
+		font-size: 16px;
+	}
+ 	.main1{
+ 		width: 75%;
+ 	}
+ 	.main1 .p1{
+ 		font-size: 24px;
+ 	}
+ 	.main1 .p2{
+ 		font-size: 18px;
+ 		line-height: 27px;
+ 	}
+ 	.main1 button {
+    font-size: 11px;
+    padding: 15px 18px;
+	}
+	.marLeftRight {
+		/*margin: 55px auto;*/
+		width: 80%;
+		overflow: hidden;
+	}
+	.cmn{
+		/*float: left;*/
+		width: 30%;
+	}
+	.footerForWidth{
+		width: 80%;
+	}
+ } 
+
+/* Extra Small */
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+	.main{
+		width: 92%;
+		margin:0 auto;
+	}
+	.left{
+ 		float: left;
+ 		width: 100%;
+ 	}
+ 	.right{
+ 		float: right;
+ 		width: 100%;
+ 	}
+	.left p{
+		font-size: 35px;
+		line-height: 30px;
+	}
+	nav ul li a{
+		margin-left: 8px;
+    	font-size: 12px;
+	}
+	.right p{
+		font-size: 16px;
+	}
+	.main1{
+ 		width: 85%;
+ 	}
+ 	.main1 .p1{
+ 		font-size: 25px;
+ 	}
+ 	.main1 .p2{
+ 		font-size: 20px;
+ 		line-height: 27px;
+ 	}
+ 	.cmn{
+		width: 100%;
+	}
+	.footerForWidth{
+		width: 100%;
+	}
+	.right2 nav ul li a{
+		font-size: 10px;
+	}
+
+} 
+
+

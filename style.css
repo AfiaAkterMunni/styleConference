@@ -1,0 +1,499 @@
+* {
+	padding: 0;
+	margin:0;
+}
+body{
+	font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*================================================
+			HEADER AREA
+================================================*/
+.header{
+	background: #293F50; 
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.main{
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+	width: 35%;
+	border-top: 5px solid #648880;
+	/*margin-left: 220px;*/
+	padding-top: 40px;
+	/*width: 20%;*/
+	margin-right: 5%;
+	
+}
+.left a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 100;
+}
+.left a:hover{
+	color: #518874;
+	text-decoration: none;
+}
+.left p{
+	font-weight: 300;
+	font-size: 50px;
+	text-transform: uppercase;
+	line-height: 45px;
+	}
+.right{
+	float: left;
+	width: 55%;
+	padding-top: 60px;
+	margin-left: 5%;
+	/*width: 100%;*/
+	/*margin-left: 20%;*/
+	/*margin: 70px 200px 0px 0px;*/
+	/*padding-bottom: 30px;*/
+}
+.right p{
+	font-weight: 300;
+	font-size: 21px;
+	color: #518874;
+	text-align: right;
+	margin-bottom: 20px;
+	/*margin-right: 20%;*/
+}
+ul{
+	list-style-type: none;	
+	/*padding: 20px 0px;*/
+	text-align: right;
+
+}
+nav ul li{
+	display: inline-block;
+	/*position: relative;*/
+}
+nav ul li .home{
+	margin-left: 0;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+}
+.right a:hover{
+	color: #518874;
+}
+
+
+/*================================================
+			HOME PAGE AREA
+================================================*/
+/*Slider Section*/
+
+.slider-container {
+	background: #293F50;
+}
+
+.main1{
+	text-align: center;
+	/*padding: 13px 220px;*/
+	margin: -1px auto;
+	width: 60%;
+	overflow: hidden;
+	padding-bottom: 70px;
+}
+.main1 .p1{
+	font-size: 36px;
+	color: #518874;
+	margin-top: 5px;
+	margin-bottom: 6px; 
+	font-weight: 300;
+}
+.main1 .p2{
+	font-size: 24px;
+	color: #fff;
+	/*margin: 0px 60px;*/
+	font-weight: 100;
+	line-height: 45px;
+}
+.main1 button{
+	background: #293F50;
+	font-size: 15px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 25px 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+.main1 button:hover{
+	color: #518874;
+	background: #fff; 
+}
+/*Image Box Section*/
+
+.image{
+	/* margin: 55px 234px; */
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.marLeftRight {
+	margin: 55px auto;
+	width: 70%;
+	overflow: hidden;
+}
+
+.cmn{
+	float: left;
+	width: 30%;
+}
+
+.cmn img{
+	/* width: 270px; */
+	width: 100%;
+	border-radius: 5px;
+}
+
+.first{
+	margin-right: 5%;
+}
+.third{
+	margin-left: 5%;
+}
+.image h5{
+	color: #A9B2C0;
+	font-weight: 400;
+	padding: 25px 0px;
+}
+.image h3{
+	padding: 20px 0px;
+}
+.image h3 a{
+	font-weight: 300;
+	color: #A9B2C0;
+	text-decoration: none;
+	font-size: 23px;
+}
+.image h3 a:hover{
+	color: #A9B2B9;
+}
+.image p{
+	color: #888888;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+
+/*================================================
+			SPEAKER PAGE
+================================================*/
+.slider1{
+	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+.slider1 .s1{
+	text-align: center;
+	/*padding: 13px 220px;*/
+	width: 70%;
+	margin: auto;
+	padding-bottom: 70px;
+}
+.s1 h1{
+	color: #648880;
+	font-size: 37px;
+	font-weight: 400;
+	padding: 25px 0px;
+}
+.s1 p{
+	color: #888888;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 35px;
+}
+.aron{
+	width: 70%;
+	margin: 60px auto;
+	overflow: hidden;
+}
+.aron-left{
+	width: 65%;
+	float: left;
+	/*padding-right: 0px;*/
+}
+.aron-left h3{
+	color:#648C88; 
+	font-size: 25px;
+	font-weight: 400;
+}
+.aron-left h5{
+	color:#A9B2B9; 
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 12px;
+}
+
+.aron-left p{
+	color: #888897;
+	font-size: 16px;
+	padding-top: 5px;
+	font-weight: 400;
+	word-spacing: 4px;
+	line-height: 22px;
+}
+.aron-left a{
+	color: #648C88; 
+}
+.aron-left a:hover{
+	color: lightgray;
+}
+.aron-right{
+	width: 30%;
+	float: left;
+	border: 1px solid #DFE2E5;
+	margin: 80px 0px 0px 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+.aron-right img{
+	width: 50%;
+    height: 50%;
+    border-radius: 50% 50%;
+    margin-top: -50px;
+}
+.aron-right .box p{
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.aron-right .box a{
+	text-decoration: none;
+	color: #648C88;
+}
+.aron-right .box a:hover{
+	color: lightgray;
+}
+
+
+
+/*================================================
+			VENUE PAGE
+================================================*/
+	
+.chicago{
+	width: 70%;
+	margin: 60px auto;
+	overflow: hidden;
+}
+
+.chicago-left{
+	float: left;
+	width: 30%;
+}
+
+.chicago-left h2{
+	color: #6E9188;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.chicago-left p{
+	color: #888888;
+	padding-bottom: 5px;
+}
+.chicago-left p a{
+	color: #888888;
+}
+.chicago-left p a:hover{
+	color: #A9B2C0;
+}
+
+.chicago-map{
+	float: left;
+	width: 65%;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+.chicago-map p{
+	width: 100%;
+}
+.season{
+	/*margin-top: 180px;*/
+	/*margin-bottom: 255px;*/
+}
+
+/*================================================
+			REGISTER PAGE
+================================================*/
+
+.register{
+	width: 70%;
+	margin: 60px auto;
+	overflow: hidden;
+}
+.Purchase-left{
+	float: left;
+	width: 60%;
+	padding-right: 20px;
+}
+.Purchase-left h2{
+	color: #6E9188;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.Purchase-left .small{
+	color: lightgray;
+	font-size: 14px;
+	font-weight: 400;
+}
+.Purchase-left p{
+	color: #888888;
+	line-height: 22px;
+	font-size: 17px;
+	text-align: justify;
+}
+.Purchase-left h3{
+	color: #6E9188;
+	font-weight: 400;
+	padding-top: 10px;
+}
+.Purchase-left ul{
+	list-style-type: square;
+	color: #888888;
+	margin-left: 35px; 
+	line-height: 23px;
+	text-align: left;
+}
+
+.Purchase-right{
+	float: left;
+	width: 30%;
+	margin-left: 2%;
+}
+.Purchase-right form label{
+	color: #6E9188;
+	font-size: 17px;
+}
+.Purchase-right form .inp{
+	padding: 7px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	color: #888888;
+	font-size: 16px;
+}
+.Purchase-right form .wdt{
+	width: 100%;
+	border: 1px solid lightgray;
+}
+.Purchase-right form button{
+	background: #6E9188;
+	font-size: 15px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 15px 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-radius: 5px;
+	margin-bottom: 70px;
+}
+.Purchase-right form button:hover{
+	color: #fff;
+	background: #77A198;
+}
+
+
+/*================================================
+			SCHEDULE PAGE
+================================================*/
+.workshop{
+	width: 70%;
+	margin: 60px auto;
+}
+
+.table thead th{
+	padding-right: 60px;
+	padding-bottom: 30px;
+	vertical-align: top;
+	color: #698A80;
+
+}
+.table thead td{
+	padding-bottom: 24px;
+	/*vertical-align: top;*/
+	color: #A9B2B9;
+	font-size: 17px;
+}
+.table tbody th{
+	padding-right: 0px;
+	padding-bottom: 30px;
+	vertical-align: middle;
+	color: #A9B2B9;
+	font-size: 13px;
+	font-weight: 400;
+	padding-top: 25px;
+}
+.table tbody td{
+	padding-bottom: 25px;
+	color: #A9B2B9;
+	font-size: 17px;
+	padding-top: 20px;	
+	margin-right: 0px;
+}
+
+tbody td{
+	border-top: 1px solid #dfe2e5;
+}
+.table tbody td a{
+	text-decoration: none;
+}
+.table tbody .pa{
+	padding-right: 10px;
+}
+.table tbody td a h4{
+	color: #648880;
+}
+.table tbody td a p{
+	color: #888;
+	padding-top: 5px;
+}
+.table tbody td a p:hover{
+	color: #A9B9D2;
+}
+
+
+/*================================================
+			FOOTER AREA
+================================================*/
+
+.footer{
+	background: #293F50; 
+	overflow: hidden;
+	/*padding: 25px 5%; */
+}
+.footerForWidth{
+	width: 70%;
+	overflow: hidden;
+	margin: auto;
+	padding: 50px 0px;
+}
+.left2{
+	width: 40%;
+	color: #518874;
+	float: left;
+	font-size: 14px;
+	font-weight: 400;
+	/*padding-top: 22px;*/
+}
+.right2{
+	float: right;
+	width: 60%;
+}
+.right2 nav ul li a{
+	font-size: 14px;
+	text-transform: capitalize; 
+	font-weight: 300;
+}
+.bold{
+	font-weight: 400 !important;
+}
